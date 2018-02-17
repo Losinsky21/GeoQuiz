@@ -1,12 +1,10 @@
 package com.example.losinsky.geoquiz
 
-import android.opengl.Visibility
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlin.math.sign
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         loadText()
-        //mCurrentIndex = 0 //in case of out of array
 
         // false button binding
         // instead of private Button mFalseButton [(Java)] correct_toast
